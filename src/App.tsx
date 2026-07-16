@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Hem from './Hem'
 import Om from './Om'
@@ -8,10 +8,9 @@ import Kontakt from './Kontakt'
 
 function App() {
   return (
-    <main id="center">
+    <main className="center">
       <div className="container">
         <h1>Legobiten</h1>
-        <BrowserRouter>
         <nav>
         <Link to="/">Hem</Link> |{" "}
         <Link to="/om">Om</Link> |{" "}
@@ -19,6 +18,7 @@ function App() {
         <Link to="/cv">CV</Link> |{" "}
         <Link to="/kontakt">Kontakt</Link>
       </nav>
+
       <Routes>
         <Route path="/" element={<Hem />} />
         <Route path="/om" element={<Om />} />
@@ -26,8 +26,10 @@ function App() {
         <Route path="/cv" element={<CV />} />
         <Route path="/kontakt" element={<Kontakt />} />
       </Routes>
-        </BrowserRouter>
-        <p>En enkel sida — innehållet ligger på vitt underlag.</p>
+      
+        <footer>
+          <p>En enkel sida — innehållet ligger på vitt underlag.</p>
+        </footer>
       </div>
     </main>
   )
