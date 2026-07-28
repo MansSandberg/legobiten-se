@@ -104,7 +104,7 @@ function Om() {
             vidare till Hemsida24, där jag fick större frihet att utveckla
             sidan. Det var då jag skaffade domännamnet legobiten.se. <br />
             Hemsida24 erbjöd färdiga komponenter för bildvisning med galleri,
-            som jag använde för att visa mina legobilder. De hade även
+            som jag använde för att visa mina Legobilder. De hade även
             komponenter där man kunde skriva egen HTML, vilket jag
             experimenterade mycket med.
           </p>
@@ -249,7 +249,7 @@ function Om() {
           </h4>
           <p>
             Jag hade sparat ihop pengar för att köpa Lego Star Wars UCS
-            Millenium Falcon #75192. Det var Legos då största set någonsin och
+            Millennium Falcon #75192. Det var Legos då största set någonsin och
             den var svår att få tag på. Det var inte alltid den gick att
             beställa på hemsidan. Den sålde slut väldigt fort när den kom in i
             lager, så det gällde att ha koll. <br />
@@ -387,7 +387,7 @@ function Om() {
             Några exempel på projekt jag har arbetat med är:
           </h4>
           <ul>
-            <li>Promenad-app för att dokumentera och dela en prommenad</li>
+            <li>Promenad-app för att dokumentera och dela en promenad</li>
             <li>Podcast-transkribering med OpenAI Whisper</li>
             <li>
               Automatiserad Speedtest för att få ut statistik över hastigheten
