@@ -1,0 +1,11 @@
+.projekt-item {
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+}
+.tag:after {
+  content: ", ";
+}
+
+.tags :last-child:after {
+    content: "";
+}
