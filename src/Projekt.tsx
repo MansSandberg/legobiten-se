@@ -18,7 +18,7 @@ function Projekt() {
             + "\nPå siten har jag också byggt en egen bingodragning. \nBingodragaren använder HTML5-animation som jag byggt i med hjälp av Tumult Hype."
           }
           lessons="Första Angular-applikationen jag driftat själv. Jag använder AWS S3 som host."
-          link="https://www.designbysandberg.se"
+          website="https://www.designbysandberg.se"
           tags={["Angular", "TypeScript", "AWS"]}
         />
 
