@@ -3,17 +3,34 @@ import './ProjektItem.css';
 type ProjektItemProps = {
     id: string
   title: string
-  desc?: string
+  background?: string
+  solution?: string
+  lessons?: string
   link?: string,
   tags: string[]
   github?: string
 }
 
-function ProjektItem({ id, title, desc, link, tags, github }: ProjektItemProps) {
+function ProjektItem({ id, title, background, solution, lessons, link, tags, github }: ProjektItemProps) {
   return (
     <article className="projekt-item">
         <h3>{title}</h3>
-      {desc ? <p style={{ whiteSpace: 'pre-line' }}>{desc}</p> : null}
+        {background ? (
+        <>
+          <h4>Bakgrund</h4>
+          <p style={{ whiteSpace: 'pre-line' }}>{background}</p>
+        </>
+      ) : null}
+      {solution ? <>
+      <h4>Lösning</h4>
+        <p style={{ whiteSpace: 'pre-line' }}>{solution}</p> 
+      </>
+      : null}
+      {lessons ? <>
+      <h4>Vad jag lärde mig</h4>
+        <p style={{ whiteSpace: 'pre-line' }}>{lessons}</p>
+      </>
+       : null}
       {link ? (
         <p>
           <a href={link} target="_blank" rel="noopener noreferrer">
