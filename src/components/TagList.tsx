@@ -1,3 +1,4 @@
+import './Taglist.css';
 
 type TagListProps = {
   tags: string[]

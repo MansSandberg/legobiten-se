@@ -1,5 +1,4 @@
 import "./Projekt.css";
-import './components/tags.css';
 import ProjektItem from "./ProjektItem";
 
 function Projekt() {
