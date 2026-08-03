@@ -3,7 +3,7 @@ import './App.css'
 import Hem from './Hem'
 import Om from './Om'
 import Projekt from './Projekt'
-import CV from './CV'
+import Erfarenhet from './Erfarenhet'
 import Kontakt from './Kontakt'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Link to="/">Hem</Link> |{" "}
         <Link to="/om">Om</Link> |{" "}
         <Link to="/projekt">Projekt</Link> |{" "}
-        <Link to="/cv">CV</Link> |{" "}
+        <Link to="/erfarenhet">Erfarenhet</Link> |{" "}
         <Link to="/kontakt">Kontakt</Link>
       </nav>
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Hem />} />
         <Route path="/om" element={<Om />} />
         <Route path="/projekt" element={<Projekt />} />
-        <Route path="/cv" element={<CV />} />
+        <Route path="/erfarenhet" element={<Erfarenhet />} />
         <Route path="/kontakt" element={<Kontakt />} />
       </Routes>
 
