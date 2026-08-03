@@ -1,5 +1,6 @@
 import './ProjektItem.css';
 import { HiOutlineGlobeAlt } from "react-icons/hi";
+import TagList from './components/TagList';
 
 type ProjektItemProps = {
   id: string
@@ -57,13 +58,7 @@ function ProjektItem({ id, title, background, solution, lessons, website: link, 
       {tags.length > 0 && (
         <>
           <h4>Teknik</h4>
-          <div className="tags">
-            {tags.map((tag) => (
-              <span key={tag} className="tag">
-                {tag}
-              </span>
-            ))}
-          </div>
+          <TagList tags={tags} />
         </>
       )}
     </article>

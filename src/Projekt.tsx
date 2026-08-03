@@ -1,4 +1,5 @@
 import "./Projekt.css";
+import './components/tags.css';
 import ProjektItem from "./ProjektItem";
 
 function Projekt() {
@@ -74,6 +75,22 @@ function Projekt() {
           lessons="Båda mina podcast-projekt gv mig insikt i hur RSS-flöden fungerar och hur de kan användas för att samla in information."
           github="https://github.com/MansSandberg/podcast-transkriberare"
           tags={["Python", "Regex"]}
+        />
+
+        <ProjektItem
+          id="speedtest"
+          title="Speedtest-reporter"
+          background={"Jag har haft behovet av att göra kontinuerliga mätningar av hastigheten på mitt bredband hemma för att ha underlag att avgöra om uppkopplingen har varit stabil och om den har nått upp i de hastigheter som utlovats."
+          }
+          solution={
+            "Jag tittade både på Bredbandskollen och på Speedtest och vad de hade för APIer. Valet föll på Speedtest. "
+            + "\nEtt script som körs en gång i halvtimmen, gör en Speedtest-mätning och lagrar resultatet i en CSV-fil i på Google Drive. Vid midnatt varje dag körs ett cron-jobb som triggar summering av CSV-datan och genererar grafer över hastighet upp och ner samt ping. Det skapas också en graf som visar genomsnittlig nedladdnings-hastiget per dag i veckan respektive tid på dygnet."
+          }
+          lessons={"För att ladda upp till Google Cloud behövde jag läsa på om deras API och skapa nycklar för att koden skulle komma åt min Google Drive-mapp."
+            + "\nDet här var också första gången jag använde Pandas till ett projekt."
+          }
+          github="hhttps://github.com/MansSandberg/speedtest-reporter"
+          tags={["Python", "Pandas", "Google Cloud", "Cron"]}
         />
       </div>
     </section>
