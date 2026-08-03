@@ -52,12 +52,11 @@ function Projekt() {
           id="podcastTranskriberare"
           title="Podcast-transkriberare"
           background={
-            "Jag har sedan tidigt 2010-tal varit en flitig podcast-lyssnare av diverse poddar. Framförallt humor-poddar, men jag lyssnar också på teknik och programmeringspoddar, dokumentärer och intervjuer."
+            "Det finns humor-poddar som jag har lyssnat på i flera år som har släppt många avsnitt och genom åren har de byggt upp en egen värld av historier och karaktärer som återkommer i poddarna."
+            + " Det är inte alltid lätt att komma ihåg allt eller i vilket avsnitt de pratat om ett visst ämne eller en person, så jag ville hitta ett sätt att göra poddarna sökbara."
           }
           solution={
-            +"\nDet finns humor-poddar som jag har lyssnat på i flera år som har släppt många avsnitt och genom åren har de byggt upp en egen värld av historier och karaktärer som återkommer i poddarna."
-            + " Det är inte alltid lätt att komma ihåg allt eller i vilket avsnitt de pratat om ett visst ämne eller en person, så jag ville hitta ett sätt att göra poddarna sökbara."
-            + "\nLösningen jag kom på var att ladda ner poddarna och transkribera dem med OpenAIs Whipser. Jag skriptade ihop en lösning som tog ett RSS-flöde som input och sedan laddar ner MP3-filerna och transkriberar dem."
+            "Lösningen jag kom på var att ladda ner poddarna och transkribera dem med OpenAIs Whipser. Jag skriptade ihop en lösning som tog ett RSS-flöde som input och sedan laddar ner MP3-filerna och transkriberar dem."
           }
           github="https://github.com/MansSandberg/podcast-transkriberare"
           tags={["Python", "OpenAI Whisper"]}
@@ -88,7 +87,7 @@ function Projekt() {
           lessons={"För att ladda upp till Google Cloud behövde jag läsa på om deras API och skapa nycklar för att koden skulle komma åt min Google Drive-mapp."
             + "\nDet här var också första gången jag använde Pandas till ett projekt."
           }
-          github="hhttps://github.com/MansSandberg/speedtest-reporter"
+          github="https://github.com/MansSandberg/speedtest-reporter"
           tags={["Python", "Pandas", "Google Cloud", "Cron"]}
         />
       </div>
