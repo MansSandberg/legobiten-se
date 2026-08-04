@@ -20,6 +20,7 @@ function Projekt() {
           lessons="Första Angular-applikationen jag driftat själv. Jag använder AWS S3 som host."
           website="https://www.designbysandberg.se"
           tags={["Angular", "TypeScript", "AWS"]}
+          image="/bilder/designbysandberg2026.png"
         />
 
         <ProjektItem
@@ -32,6 +33,7 @@ function Projekt() {
           lessons="Det här var både första gången jag byggde ett riktigt projekt i React och första gången jag byggde en Leaflet-karta."
           github="https://github.com/MansSandberg/min-promenad"
           tags={["React", "TypeScript", "Leaflet", "Node.js", "Express.js", "REST"]}
+          image="/bilder/min-promenad.png"
         />
 
         <ProjektItem
@@ -89,6 +91,7 @@ function Projekt() {
           }
           github="https://github.com/MansSandberg/speedtest-reporter"
           tags={["Python", "Pandas", "Google Cloud", "Cron"]}
+          image="/bilder/speedtest-graf.png"
         />
       </div>
     </section>

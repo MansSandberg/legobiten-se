@@ -11,9 +11,10 @@ type ProjektItemProps = {
   website?: string,
   tags: string[]
   github?: string
+  image?: string
 }
 
-function ProjektItem({ id, title, background, solution, lessons, website: link, tags, github }: ProjektItemProps) {
+function ProjektItem({ id, title, background, solution, lessons, website: link, tags, github, image }: ProjektItemProps) {
   return (
     <article className="projekt-item">
       <h3>{title}</h3>
@@ -23,10 +24,12 @@ function ProjektItem({ id, title, background, solution, lessons, website: link, 
           <p style={{ whiteSpace: 'pre-line' }}>{background}</p>
         </>
       )}
-      {solution && <>
+      {solution && (
+        <>
         <h4>Lösning</h4>
         <p style={{ whiteSpace: 'pre-line' }}>{solution}</p>
-      </>}
+        </>
+      )}
       {lessons && <>
         <h4>Vad jag lärde mig</h4>
         <p style={{ whiteSpace: 'pre-line' }}>{lessons}</p>
@@ -60,6 +63,9 @@ function ProjektItem({ id, title, background, solution, lessons, website: link, 
           <h4>Teknik</h4>
           <TagList tags={tags} />
         </>
+      )}
+      {image && (
+        <img className="project-image" src={image} />
       )}
     </article>
   )
