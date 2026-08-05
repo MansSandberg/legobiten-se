@@ -18,6 +18,10 @@ function Erfarenhet() {
         bygger verktyg som löser verkliga problem och omsätter idéer till fungerande lösningar.
       </p>
 
+      <p>
+        Den här webbplatsen har jag utvecklat i React och TpeScript och fungerar både som portfolio och som ett sätt att visa hur jag bygger moderna webbapplikationer.
+      </p>
+
       <section>
         <h3>Arbetslivserfarenhet</h3>        
         <article>
@@ -46,7 +50,7 @@ function Erfarenhet() {
         <article>
           <h4>Jordbruksverket - IT-trainee</h4>
           <p>
-            <time dateTime="2019">2019</time> - <time dateTime="2020">2020</time>
+            <time dateTime="2019-09">September 2019</time> - <time dateTime="2020-06">Juni 2020</time>
           </p>
           
           <p>
