@@ -1,0 +1,56 @@
+.kontakt {
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.kontakt h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  letter-spacing: -0.04em;
+}
+
+.kontakt-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+}
+
+.kontakt-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem 1.5rem;
+  align-items: start;
+  padding: 1rem 1rem;
+  border-radius: 0.85rem;
+  background: #f8faf7;
+}
+
+.kontakt-item dt {
+  font-weight: 700;
+  color: #2f4f4b;
+}
+
+.kontakt-item dd {
+  margin: 0;
+  color: #4d6461;
+  line-height: 1.6;
+}
+
+.kontakt-item a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1d4a4a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.kontakt-item a:hover,
+.kontakt-item a:focus-visible {
+  color: #0f2e2d;
+}
+
