@@ -30,3 +30,10 @@ body {
   text-align: center;
   border-top: 1px solid #ddd;
 }
+
+.footer-note {
+  display: block;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.45rem;
+}

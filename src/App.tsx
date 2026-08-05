@@ -45,7 +45,9 @@ function App() {
               </svg>
               &nbsp;LinkedIn
             </a>
-          
+         <span className='footer-note'>
+          Byggt med React, TypeScript och Vite.
+          </span>
           </p>
         </footer>
       </div>
