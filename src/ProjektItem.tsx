@@ -65,7 +65,7 @@ function ProjektItem({ id, title, background, solution, lessons, website: link, 
         </>
       )}
       {image && (
-        <img className="project-image" src={image} />
+        <img className="project-image" src={image} alt={`Skärmdump på ${title}`} />
       )}
     </article>
   )

@@ -202,7 +202,7 @@ function Om() {
           </p>
           <img
             src="/bilder/2018.png"
-            alt="Bild på egendesignad hemisda. Vyn visar sidan Min LEGO-samling. Där syns en tabell över mina LEGO.set."
+            alt="Bild på egendesignad hemsida. Vyn visar sidan Min LEGO-samling. Där syns en tabell över mina LEGO.set."
             style={{ width: "100%", marginTop: "10px" }}
           />
         </VerticalTimelineElement>
