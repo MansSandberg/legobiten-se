@@ -1,7 +1,13 @@
 import { HiExternalLink, HiMail } from "react-icons/hi";
 import "./Kontakt.css";
+import Seo from "./seo/Seo";
 function Kontakt() {
   return (
+    <>
+      <Seo
+        title="Kontakt | Måns Sandberg"
+        description="Kontaktuppgifter till Måns Sandberg. Hitta LinkedIn, GitHub och e-post ör frågor om projekt, utveckling eller samarbeten."
+      />
     <section className="kontakt">
       <h2>Kontakta mig</h2>
       <p>
@@ -69,6 +75,7 @@ function Kontakt() {
         </div>
       </dl>
     </section>
+    </>
   );
 }
 

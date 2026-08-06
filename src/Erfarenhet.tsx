@@ -1,9 +1,15 @@
-import './Erfarenhet.css';
-import './components/TagList';
-import TagList from './components/TagList';
+import "./Erfarenhet.css";
+import "./components/TagList";
+import TagList from "./components/TagList";
+import Seo from "./seo/Seo";
 
 function Erfarenhet() {
   return (
+    <>
+      <Seo
+        title="Erfarenhet | Måns Sandberg"
+        description="Erfarenhet, utbildning och tekniska kompetenser inom frontend, backend, GIS, Java, React, ANgular, TypeScript, Kubernetes och molntjänster."
+      />
     <section>
       <h2>Erfarenhet</h2>
       
@@ -140,7 +146,8 @@ function Erfarenhet() {
         </p>
       </aside>
     </section>
-  )
+    </>
+  );
 }
 
 export default Erfarenhet

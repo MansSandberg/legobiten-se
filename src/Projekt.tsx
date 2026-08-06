@@ -1,8 +1,14 @@
 import "./Projekt.css";
 import ProjektItem from "./ProjektItem";
+import Seo from "./seo/Seo";
 
 function Projekt() {
   return (
+    <>
+      <Seo
+        title="Projekt | React, Angular & Python"
+        description="Ett urval av projekt utvecklade av Måns Sandberg, bland annat React-, Angular- och Pythonprojekt med fokus på praktisk problemlösning och webbutveckling."
+      />
     <section>
       <h2>Projekt</h2>
       <p>Här är några exempel på projekt jag har arbetat med.</p>
@@ -95,6 +101,7 @@ function Projekt() {
         />
       </div>
     </section>
+    </>
   );
 }
 

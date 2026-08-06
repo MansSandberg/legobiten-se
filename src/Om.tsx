@@ -4,6 +4,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Om.css";
+import Seo from "./seo/Seo";
+import personSchema from "./seo/personSchema";
 
 const WorkIcon = () => (
   <span aria-label="work icon" role="img" style={{ fontSize: "1.2rem" }}>
@@ -31,6 +33,12 @@ const CodeIcon = () => (
 
 function Om() {
   return (
+    <>
+      <Seo
+        title="Måns Sandberg"
+        description="Lär känna Måns Sandberg- systemutvecklare med passion för programmering, problemlösning, Lego och modern webbutveckling."
+        schema={personSchema}
+      />
     <section>
       <h2>Om mig</h2>
       <p>
@@ -397,6 +405,7 @@ function Om() {
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
+    </>
   );
 }
 
