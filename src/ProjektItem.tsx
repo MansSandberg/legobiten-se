@@ -14,7 +14,7 @@ type ProjektItemProps = {
   image?: string
 }
 
-function ProjektItem({ id, title, background, solution, lessons, website: link, tags, github, image }: ProjektItemProps) {
+function ProjektItem({ title, background, solution, lessons, website: link, tags, github, image }: ProjektItemProps) {
   return (
     <article className="projekt-item">
       <h3>{title}</h3>
