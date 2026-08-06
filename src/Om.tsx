@@ -32,7 +32,7 @@ const CodeIcon = () => (
 function Om() {
   return (
     <section>
-      <h2>Om</h2>
+      <h2>Om mig</h2>
       <p>
         Jag heter Måns Sandberg och arbetar idag som systemutvecklare på
         Jordbruksverket. Jag har programmerat sedan tonåren och tycker om att

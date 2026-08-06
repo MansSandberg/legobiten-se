@@ -133,7 +133,7 @@ function Erfarenhet() {
       <aside>
         <h3>Vill du se hur jag använder de här teknikerna i praktiken?</h3>
         <p>
-          På <strong>projektsidan</strong> beskriver jag hur jag har byggt bland annat en bingolottsgenerator i Angular, ett
+          På <a href="projekt">projektsidan</a> beskriver jag hur jag har byggt bland annat en bingolottsgenerator i Angular, ett
           automatiserat övervakningsverktyg för LEGO:s webbplats, en React-applikation för kartbaserade
           promenader och flera andra projekt - tillsammans med de erfarenheter jag tog med mig från varje
           projekt.
