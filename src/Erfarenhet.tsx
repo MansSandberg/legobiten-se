@@ -8,7 +8,7 @@ function Erfarenhet() {
     <>
       <Seo
         title="Erfarenhet | Måns Sandberg"
-        description="Erfarenhet, utbildning och tekniska kompetenser inom frontend, backend, GIS, Java, React, ANgular, TypeScript, Kubernetes och molntjänster."
+        description="Erfarenhet, utbildning och tekniska kompetenser inom frontend, backend, GIS, Java, React, Angular, TypeScript, Kubernetes och molntjänster."
       />
       <section>
         <h2>Erfarenhet</h2>
