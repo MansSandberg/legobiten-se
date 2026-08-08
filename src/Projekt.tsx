@@ -25,7 +25,7 @@ function Projekt() {
             lessons="Första Angular-applikationen jag driftat själv. Jag använder AWS S3 som host."
             website="https://www.designbysandberg.se"
             tags={["Angular", "TypeScript", "AWS"]}
-            image="/bilder/designbysandberg2026.png"
+            image="bilder/designbysandberg2026.png"
           />
 
           <ProjektItem

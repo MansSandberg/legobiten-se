@@ -65,7 +65,7 @@ function ProjektItem({ title, background, solution, lessons, website: link, tags
         </>
       )}
       {image && (
-        <img className="project-image" src={image} alt={`Skärmdump på ${title}`} />
+        <img className="project-image" src={`${import.meta.env.BASE_URL}` + `${image}`} alt={`Skärmdump på ${title}`} />
       )}
     </article>
   )
