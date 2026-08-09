@@ -47,7 +47,7 @@ function Projekt() {
               "Express.js",
               "REST",
             ]}
-            image="/bilder/min-promenad.png"
+            image="bilder/min-promenad.png"
           />
 
           <ProjektItem
@@ -107,7 +107,7 @@ function Projekt() {
             }
             github="https://github.com/MansSandberg/speedtest-reporter"
             tags={["Python", "Pandas", "Google Cloud", "Cron"]}
-            image="/bilder/speedtest-graf.png"
+            image="bilder/speedtest-graf.png"
           />
         </div>
       </section>

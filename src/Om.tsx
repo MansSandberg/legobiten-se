@@ -117,7 +117,7 @@ function Om() {
               när jag surfade runt på internet. Jag minns att jag även lade till
               en Google-sökruta på sidan.
               <img
-                src={`${import.meta.env.BASE_URL}/bilder/hemsida24.jpg`}
+                src={`${import.meta.env.BASE_URL}bilder/hemsida24.jpg`}
                 alt="Skärmdump från min Hemsida24-sida."
                 style={{ width: "100%", marginTop: "10px" }}
               />
@@ -144,7 +144,7 @@ function Om() {
               filerna. Den första versionen av hemsidan bestod av HTML-tabeller.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}/bilder/2010.png`}
+                src={`${import.meta.env.BASE_URL}bilder/2010.png`}
               alt="Skärmdump från min Legoforever-sida."
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -179,7 +179,7 @@ function Om() {
               jag har använt till flera projekt.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}/bilder/2014.png`}
+                src={`${import.meta.env.BASE_URL}bilder/2014.png`}
               alt="Brinellgymnasiet"
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -206,7 +206,7 @@ function Om() {
               filtrera på hemsidan.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}/bilder/2018.png`}
+                src={`${import.meta.env.BASE_URL}bilder/2018.png`}
               alt="Bild på egendesignad hemsida. Vyn visar sidan Min LEGO-samling. Där syns en tabell över mina LEGO.set."
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -311,7 +311,7 @@ function Om() {
             </p>
 
             <img
-                src={`${import.meta.env.BASE_URL}/bilder/designbysandberg2019.png`}
+                src={`${import.meta.env.BASE_URL}bilder/designbysandberg2019.png`}
               alt="Skärmdump från designbysandberg.se som den såg ut 2019."
               style={{ width: "100%", marginTop: "10px" }}
             />
