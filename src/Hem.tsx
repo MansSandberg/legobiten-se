@@ -25,17 +25,17 @@ function Hem() {
           på hemsidan, som jag har haft sedan jag var i 11-årsåldern.
           <br />
           Jag har beskrivit min resa mot att bli systemutvecklare på{" "}
-          <a href="Om">Om mig-sidan</a>
+          <a href="/om">Om mig-sidan</a>
           <br />
           Utöver mitt arbete som systemutvecklare programmerar jag en del på
           fritiden. Du se några av mina projekt på{" "}
-          <a href="projekt">Projekt-sidan</a>
+          <a href="/projekt">Projekt-sidan</a>
         </p>
         <div style={{ marginTop: "1rem" }}>
-          <a href="projekt" className="button" style={{ marginRight: "1rem" }}>
+          <a href="/projekt" className="button" style={{ marginRight: "1rem" }}>
             Se mina projekt
           </a>
-          <a href="Om" className="button">
+          <a href="/om" className="button">
             Läs mer om mig
           </a>
         </div>
