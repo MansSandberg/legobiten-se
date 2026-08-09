@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TagList from "./components/TagList";
 import "./Hem.css";
 import Seo from "./seo/Seo";
@@ -25,19 +26,19 @@ function Hem() {
           på hemsidan, som jag har haft sedan jag var i 11-årsåldern.
           <br />
           Jag har beskrivit min resa mot att bli systemutvecklare på{" "}
-          <a href="/om">Om mig-sidan</a>
+          <Link to="/om">Om mig-sidan</Link>
           <br />
           Utöver mitt arbete som systemutvecklare programmerar jag en del på
           fritiden. Du se några av mina projekt på{" "}
-          <a href="/projekt">Projekt-sidan</a>
+          <Link to="/projekt">Projekt-sidan</Link>
         </p>
         <div style={{ marginTop: "1rem" }}>
-          <a href="/projekt" className="button" style={{ marginRight: "1rem" }}>
+          <Link to="/projekt" className="button" style={{ marginRight: "1rem" }}>
             Se mina projekt
-          </a>
-          <a href="/om" className="button">
+          </Link>
+          <Link to="/om" className="button">
             Läs mer om mig
-          </a>
+          </Link>
         </div>
       </section>
       <div className="hem-image">
