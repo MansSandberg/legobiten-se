@@ -14,7 +14,7 @@ export default function Seo({
   description,
   canonical,
   schema,
-  image = "/favicon.svg",
+  image = "/favicon.png",
   type = "website",
 }: SeoProps) {
   const fullTitle = title.includes("Legobiten")
@@ -29,6 +29,7 @@ export default function Seo({
       <meta name="robots" content="index,follow" />
       <meta name="theme-color" content="#4d9683" />
       <link rel="canonical" href={canonicalUrl} />
+      <meta property="og:url" content={canonicalUrl} />
 
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
