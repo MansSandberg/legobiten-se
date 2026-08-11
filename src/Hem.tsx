@@ -42,7 +42,7 @@ function Hem() {
         </div>
       </section>
       <div className="hem-image">
-        <img src={`${import.meta.env.BASE_URL}bilder/jag2.webp`} alt="Bild på mig"  width={100}/>
+        <img src={`${import.meta.env.BASE_URL}bilder/jag2.webp`} alt="Bild på mig"  width={1254} height={1254}/>
         <TagList
           tags={[
             "Java",
