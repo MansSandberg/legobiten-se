@@ -47,7 +47,7 @@ function Projekt() {
               "Express.js",
               "REST",
             ]}
-            image="bilder/min-promenad.png"
+            image="bilder/min-promenad.webp"
           />
 
           <ProjektItem

@@ -144,7 +144,7 @@ function Om() {
               filerna. Den första versionen av hemsidan bestod av HTML-tabeller.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}bilder/2010.png`}
+              src={`${import.meta.env.BASE_URL}bilder/2010.webp`}
               alt="Skärmdump från min Legoforever-sida."
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -179,7 +179,7 @@ function Om() {
               jag har använt till flera projekt.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}bilder/2014.png`}
+              src={`${import.meta.env.BASE_URL}bilder/2014.webp`}
               alt="Brinellgymnasiet"
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -206,7 +206,7 @@ function Om() {
               filtrera på hemsidan.
             </p>
             <img
-                src={`${import.meta.env.BASE_URL}bilder/2018.png`}
+              src={`${import.meta.env.BASE_URL}bilder/2018.webp`}
               alt="Bild på egendesignad hemsida. Vyn visar sidan Min LEGO-samling. Där syns en tabell över mina LEGO.set."
               style={{ width: "100%", marginTop: "10px" }}
             />
@@ -311,7 +311,7 @@ function Om() {
             </p>
 
             <img
-                src={`${import.meta.env.BASE_URL}bilder/designbysandberg2019.png`}
+              src={`${import.meta.env.BASE_URL}bilder/designbysandberg2019.webp`}
               alt="Skärmdump från designbysandberg.se som den såg ut 2019."
               style={{ width: "100%", marginTop: "10px" }}
             />
